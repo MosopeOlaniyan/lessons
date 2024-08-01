@@ -14,6 +14,8 @@
 		BD5FF1182C5A3F0300E71E4F /* lessonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FF1172C5A3F0300E71E4F /* lessonsTests.swift */; };
 		BD5FF1222C5A3F0300E71E4F /* lessonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FF1212C5A3F0300E71E4F /* lessonsUITests.swift */; };
 		BD5FF1242C5A3F0300E71E4F /* lessonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FF1232C5A3F0300E71E4F /* lessonsUITestsLaunchTests.swift */; };
+		BD5FF1342C5A3FCA00E71E4F /* Moderniz.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF1312C5A3FCA00E71E4F /* Moderniz.otf */; };
+		BD5FF1352C5A3FCA00E71E4F /* Read Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF1322C5A3FCA00E71E4F /* Read Me.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		BD5FF11D2C5A3F0300E71E4F /* lessonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lessonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5FF1212C5A3F0300E71E4F /* lessonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsUITests.swift; sourceTree = "<group>"; };
 		BD5FF1232C5A3F0300E71E4F /* lessonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD5FF1312C5A3FCA00E71E4F /* Moderniz.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moderniz.otf; sourceTree = "<group>"; };
+		BD5FF1322C5A3FCA00E71E4F /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
+		BD5FF1362C5A425C00E71E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,10 @@
 		BD5FF1052C5A3F0200E71E4F /* lessons */ = {
 			isa = PBXGroup;
 			children = (
+				BD5FF1362C5A425C00E71E4F /* Info.plist */,
 				BD5FF1062C5A3F0200E71E4F /* lessonsApp.swift */,
 				BD5FF1082C5A3F0200E71E4F /* ContentView.swift */,
+				BD5FF1302C5A3F9400E71E4F /* fonts */,
 				BD5FF10A2C5A3F0300E71E4F /* Assets.xcassets */,
 				BD5FF10C2C5A3F0300E71E4F /* Preview Content */,
 			);
@@ -125,6 +132,23 @@
 				BD5FF1232C5A3F0300E71E4F /* lessonsUITestsLaunchTests.swift */,
 			);
 			path = lessonsUITests;
+			sourceTree = "<group>";
+		};
+		BD5FF1302C5A3F9400E71E4F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD5FF1332C5A3FCA00E71E4F /* moderniz */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		BD5FF1332C5A3FCA00E71E4F /* moderniz */ = {
+			isa = PBXGroup;
+			children = (
+				BD5FF1312C5A3FCA00E71E4F /* Moderniz.otf */,
+				BD5FF1322C5A3FCA00E71E4F /* Read Me.txt */,
+			);
+			path = moderniz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +257,8 @@
 			files = (
 				BD5FF10E2C5A3F0300E71E4F /* Preview Assets.xcassets in Resources */,
 				BD5FF10B2C5A3F0300E71E4F /* Assets.xcassets in Resources */,
+				BD5FF1342C5A3FCA00E71E4F /* Moderniz.otf in Resources */,
+				BD5FF1352C5A3FCA00E71E4F /* Read Me.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +450,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lessons/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lessons/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +481,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lessons/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lessons/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
